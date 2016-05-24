@@ -1,0 +1,35 @@
+{
+    "name": "legestue/challenge-cards-pdf",
+    "description": "Create PDFs of of challenge cards.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://github.com/lsolesen/challenge-cards-pdf",
+    "authors": [
+        {
+            "name": "Lars Olesen",
+            "role": "lars@intraface.dk"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "6.2.*",
+        "twig/twig": "1.24.*",
+        "dompdf/dompdf": "0.7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Legestue\\Challenge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Legestue\\Tests\\": "tests/",
+            "Legestue\\Challenge\\Tests\\": "tests/"
+        }
+    }
+}

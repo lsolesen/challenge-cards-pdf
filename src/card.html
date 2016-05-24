@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>{{ card.Title }}</title>
+      <link rel="stylesheet" href="css/main.style.css">
+    </head>
+    <body>
+      <table>
+        <tr>
+          <th>{{ card.Type }}</th>
+          <th>{{ card.Points }}</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            {{ card.Title }}
+            {{ card.Description }}
+          </td>
+        </tr>
+        <tr>
+          <th>{{ card.Category }}</th>
+          <th>{{ card.Number }}</th>
+        </tr>
+      </table>
+    </body>
+</html>
