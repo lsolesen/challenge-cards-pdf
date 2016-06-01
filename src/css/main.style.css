@@ -3,8 +3,7 @@ h1 {
 
 table {
   border: 1px solid black;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
   table thead th:first-of-type, table tfoot th:first-of-type {
     background: black;
     color: white;
