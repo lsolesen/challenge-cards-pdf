@@ -1,3 +1,21 @@
+h1 {
+  font-size: 1.2em;
+}
+
 table {
   border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  thead, tfoot {
+    th:first-of-type {
+      background: black;
+      color: white;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
 }

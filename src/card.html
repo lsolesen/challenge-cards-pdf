@@ -7,20 +7,26 @@
     </head>
     <body>
       <table>
+        <thead>
         <tr>
           <th>{{ card.Type }}</th>
           <th>{{ card.Points }}</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
           <td colspan="2">
-            {{ card.Title }}
+            <h1>{{ card.Title }}</h1>
             {{ card.Description }}
           </td>
         </tr>
+        </tbody>
+        <tfoot>
         <tr>
           <th>{{ card.Category }}</th>
           <th>{{ card.Number }}</th>
         </tr>
+        </tfoot>
       </table>
     </body>
 </html>
