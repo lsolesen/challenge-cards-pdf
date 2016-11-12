@@ -8,7 +8,7 @@ class HtmlTest extends \PHPUnit_Framework_TestCase
 {
     protected $html;
 
-    function setUp()
+    public function setUp()
     {
         $this->html = new Html(new CardMock);
     }

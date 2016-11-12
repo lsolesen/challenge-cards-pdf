@@ -1,11 +1,15 @@
+html {
+  margin: 0;
+}
+
 h1 {
   font-size: 1.2em;
 }
 
 table {
+  border-collapse: collapse;
   border: 1px solid black;
   width: 100%;
-  height: 100%;
   thead, tfoot {
     th:first-of-type {
       background: black;
@@ -13,6 +17,9 @@ table {
       font-weight: bold;
       text-align: left;
     }
+  }
+  td, th {
+    padding: 3px;
   }
   td {
     border-bottom: 1px solid black;

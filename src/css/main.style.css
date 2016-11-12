@@ -1,15 +1,20 @@
+html {
+  margin: 0; }
+
 h1 {
   font-size: 1.2em; }
 
 table {
+  border-collapse: collapse;
   border: 1px solid black;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
   table thead th:first-of-type, table tfoot th:first-of-type {
     background: black;
     color: white;
     font-weight: bold;
     text-align: left; }
+  table td, table th {
+    padding: 3px; }
   table td {
     border-bottom: 1px solid black;
     border-top: 1px solid black; }
